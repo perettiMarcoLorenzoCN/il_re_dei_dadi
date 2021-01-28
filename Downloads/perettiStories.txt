@@ -1,0 +1,41 @@
+﻿1. Apre l’app
+   1. L’utente puo` accedere al gioco tramite mail oppure giocare come guess
+   2. Inizia una nuova partita : Attraverso l’interfaccia cliccando sul pulsante “Nuova partita” l’utente avvia una nuova partita
+   3. Prosegui la partita : Attraverso l’interfaccia cliccando sul pulsante “Prosegui” se e` presente una partita lasciata in sospeso l’utente torna sulla partita gia` avviata
+   4. Elenco delle partita: Attraverso l’interfaccia cliccando sul pulsante “Elenco partite” apro una nuova finestra con l’elenco di tutte le partite fatte indicando chi ha vinto
+   5. Manuale : Premendo il pulsante “Manuale” nel menu` principale l’utente legge le regole del gioco
+2. Durante la partita
+   1. seleziona il numero di giocatori : Indica quanti giocatori reali e quanti computer parteciperanno alla partita
+   2. Inserisci il nome : Inserisce il nome di tutti gli utenti reali che giocano in sequenza
+   3. seleziona l’icona identificativa : Gli utenti reali scelgono un icona che li rappresenti
+   4. tira i dadi : Comincia a giocare e secondo le regole ha 3 tentativi per turno per cercare di convincere dei cittadini
+   5. pesca (se necessario): Pesca una carta perche` non ha convinto nessun cittadino
+   6. passa il turno : Tocca all’avversario
+   7. Abbandona la partita/ ricomincia : L’utente attraverso un pulsante a forma di X apre una nuova finestra che gli permette di uscire dalla partita oppure di ricominciare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linguaggio di programmazione C++ / Javascript
