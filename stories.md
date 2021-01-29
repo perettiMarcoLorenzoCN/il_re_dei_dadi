@@ -10,7 +10,9 @@ Applicazione che simula il gioco da tavolo "Il re dei dadi"
 # Stories
 
 #### A. Story per autenticazione
-    In una pagina Home è possibile cliccare su un pulsante Login / Registrati presente in alto a destra, tramite il quale si può accedere ad una schermata per visualizzare il proprio account oppure per crearne uno nuovo. Nel primo caso si può navigare su un’interfaccia grafica che consente la modifica dei dati utili al gioco (immagine del profilo, username), di quelli anagrafici (nome, cognome) e quelli relativi alla gestione del proprio account (e-mail e password). Nel secondo, invece, vengono richiesti i dati sopracitati in modo da poter creare il profilo del giocatore.
+    In una pagina Home è possibile cliccare su un pulsante Login / Registrati presente in alto a destra, tramite il quale si può accedere\
+    ad una schermata per visualizzare il proprio account oppure per crearne uno nuovo. Nel primo caso si può navigare su un’interfaccia\
+    grafica che consente la modifica dei dati utili al gioco (immagine del profilo, username), di quelli anagrafici (nome, cognome) e quelli relativi alla gestione del proprio account (e-mail e password). Nel secondo, invece, vengono richiesti i dati sopracitati in modo da poter creare il profilo del giocatore.
 
 #### B. Story per giocare
     Per poter iniziare a giocare è necessario creare un account oppure semplicemente accedere come ospite, in questo caso viene richiesto solamente di digitare uno username temporaneo. Dopo questo passaggio è possibile cliccare su un pulsante Crea partita, tramite il quale si accede ad un’interfaccia su cui è possibile specificare il numero di giocatori della partita (da x a y) e successivamente avviarla.
