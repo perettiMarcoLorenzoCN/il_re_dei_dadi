@@ -40,16 +40,17 @@ Applicazione che simula il gioco da tavolo "Il re dei dadi"
 
 #### F. Manuale
     Ogniqualvolta l’utente lo desidera, è possibile cliccare su un’immagine presente in alto a destra (raffigurante un libro) per  
-    poter consultare il manuale di istruzioni del gioco. Per spostarsi tra le pagine del documento si utilizzano delle frecce presenti  
-    nella parte bassa del libro, mentre per chiudere basta cliccare sulla scritta chiudi posizionata nell’angolo in alto a sinistra  
-    della pagina che si sta consultando.  
+    poter consultare il manuale di istruzioni del gioco. Per spostarsi tra le pagine del documento si utilizzano delle frecce  
+    presenti nella parte bassa del libro, mentre per chiudere basta cliccare sulla scritta chiudi posizionata nell’angolo  
+    in alto a sinistra della pagina che si sta consultando.  
 
 #### G. Pesca
-    Per pescare delle carte è semplicemente richiesto il click sul mazzo su cui si desidera eseguire l’azione (simulata da un’animazione  
-    al di sopra del mazzo e evidenziata da una “luce” intorno al mazzo da cui è possibile pescare).  
+    Per pescare delle carte è semplicemente richiesto il click sul mazzo su cui si desidera eseguire l’azione (simulata  
+    da un’animazione al di sopra del mazzo e evidenziata da una “luce” intorno al mazzo da cui è possibile pescare).  
 
 #### H. Ricomincia/Termina partita
-    In alto a sinistra, durante la partita vera e propria, sono presenti una serie di pulsanti: Ricomincia e Termina partita: cliccando  
-    il primo, viene eseguito un reset della partita corrente e ne viene iniziata una nuova; il secondo, invece, fa apparire un menù a  
-    schermo (Salva partita/Abbandona senza salvare), dove il primo permette di salvare lo stato della partita corrente per poi poterla  
-    riprendere in seguito, mentre il secondo consente di lasciare il game e tornare direttamente nella Home iniziale.  
+    In alto a sinistra, durante la partita vera e propria, sono presenti una serie di pulsanti: Ricomincia e Termina partita:  
+    cliccando il primo, viene eseguito un reset della partita corrente e ne viene iniziata una nuova; il secondo, invece,  
+    fa apparire un menù a schermo (Salva partita/Abbandona senza salvare), dove il primo permette di salvare lo stato  
+    della partita corrente per poi poterla riprendere in seguito, mentre il secondo consente di lasciare il game e tornare  
+    direttamente nella Home iniziale.  
