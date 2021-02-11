@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.card {
+    padding: 5px;
+}
+
+#cardMessage {
+    background-color: lightblue;
+    padding: 10px;
+
+    width: 600px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#cardHeader {
+    position: relative;
+    top: 1%;
+    width: 100%;
+    height: 10%;
+    background-color: lightgreen;
+}
+
+#cardBody {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 70%;
+    background-color: lightcoral;
+}
+
+#cardFooter {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    background-color: lightpink;
+}
