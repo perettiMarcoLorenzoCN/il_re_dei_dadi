@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+
+	<title>Simulatore di un dado</title>
+	<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="Content-Language" content="it" />
+	<meta name="Robots" content="All" />
+	<meta name="Description" content="HTML.it - il sito italiano sul Web publishing" />
+	<meta name="Keywords" content="Lo script simula il lancio di un dado." />
+	<meta name="Owner" content="HTML.it srl" /> 
+	<meta name="Author" content="HTML.it srl" />  
+	<meta name="Copyright" content="HTML.it srl" />
+
+</head>
+<body >
+<br /><br />
+<div align="center">
+
+	
+<script>
+
+//load delle immagini del dado
+var face0=new Image()
+face0.src="d1.gif"
+var face1=new Image()
+face1.src="d2.gif"
+var face2=new Image()
+face2.src="d3.gif"
+var face3=new Image()
+face3.src="d4.gif"
+var face4=new Image()
+face4.src="d5.gif"
+var face5=new Image()
+face5.src="d6.gif"
+</script>
+
+<img src="d1.gif" name="mydice">
+<form>
+<input type="button" value="Lancia il dado!" onClick="throwdice()">
+</form>
+<script>
+function throwdice(){
+//crea un random integer tra 0 e 5
+var randomdice=Math.round(Math.random()*5)
+document.images["mydice"].src=eval("face"+randomdice+".src")
+}
+</script>
+	
+
+</body>
+</html>
