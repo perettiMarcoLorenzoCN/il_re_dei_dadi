@@ -1,0 +1,9 @@
+* {
+    height: 100vh;
+}
+
+.card {
+    position: absolute;
+    width: 30%;
+    height: 200px;
+}
