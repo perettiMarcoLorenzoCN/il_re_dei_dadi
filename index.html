@@ -7,32 +7,66 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Messaggio vittoria</title>
 
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
 
-    <div id="app">
-        <!-- <div id="card"> -->
-            <!-- <div id="cardMessage">
-                ca
-            </div> -->
-            <fieldset id="cardMessage">
-                <legend>Vittoria</legend>
+    <!-- <div id="container"> -->
+        <div id="app">
+
+        <!-- <div class="align-items-center">
+            <div class="d-flex justify-content-center">
+                <div class="card" style="width: 80%;">
+                    <div class="card-body">
+                        <h5 class="card-title">VITTORIA</h5>
+                        <p class="card-text">
+                            <img src="./src/img/14-512.png" class="img-fluid" id="imgTrofeo" alt="">
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Torna alla home</a>
+                            <a href="#" class="btn btn-primary">Inizia una nuova partita</a>
+                            <a href="#" class="btn btn-primary">Condividi</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> -->
+
+        <div id="cardMessage">
+                <div>Risultato partita</div>
                 <div id="cardHeader" class="card">
-                    header
+                    <p id='message'>Vittoria</p>
                 </div>
                 <div id="cardBody" class="card">
-                    img
-                    <img src="./src/img/14-512.png" class="img" alt="">
+                    <img src="./src/img/14-512.png" class="img" id='imgCopppa' alt="">
                 </div>
                 <div id="cardFooter" class="card">
-                    footer
+                    <button class="btn" id="againBtn">
+                        <a title="" href="/"
+                            target="_blank">
+                        <i class="fas fa-retweet"></i> Ricomincia partita
+                        </a>
+                    </button>
+    
+                    <button class="btn" id="endBtn">
+                        <a title="" href="/"
+                            target="_blank">
+                            <i class="fas fa-ban"></i> Termina partita
+                        </a>
+                    </button>
+    
+                    <button class="btn" id="shareBtn">
+                        <a title="" href="/"
+                            target="_blank">
+                        <i class="fas fa-share-alt"></i> Condividi il risultato
+                        </a>
+                    </button>
                 </div>
-                
-            </fieldset>
-        <!-- </div> -->
-
     </div>
 
 </body>
